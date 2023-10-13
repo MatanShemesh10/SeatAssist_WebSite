@@ -1,0 +1,176 @@
+@import url("../css/NightModeStyleCSS.css");
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Gisha;
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    border-radius: 50%;
+    height: 80px;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/*.logo:hover {
+        box-shadow: 0 0 0 rgba(255,255,255,0.7), 0 0 20px rgba(255,255,255,0.7), 0 0 40px rgba(255,255,255,0.7), 0 0 80px rgba(255,255,255,0.7);
+    }*/
+
+.sidebar-container {
+    background-color: #f1f1f1;
+    width: 20%;
+    height: 100vh;
+    position: fixed;
+    margin-top: 30px;
+    top: 70px;
+    left: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.sidebar {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+    .sidebar a {
+        display: block;
+        padding: 10px;
+        margin-bottom: 10px;
+        color: #333;
+        text-decoration: none;
+    }
+
+        .sidebar a:hover {
+            background-color: #333;
+            color: #fff;
+            box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #333;
+        }
+
+.userblock {
+    border: 2px solid black;
+}
+
+
+.userimg {
+    margin: 5px;
+    height: 70px;
+    border-radius: 30%;
+}
+
+.iconsBar {
+    height: 25px;
+    margin-right: 10px;
+}
+
+.center {
+    margin-top: 70px;
+    margin-left: 20%;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 80%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+
+}
+
+.profileTABLE {
+    border: 1px solid black;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 600px;
+    table-layout: fixed;
+}
+
+    .profileTABLE th,
+    .profileTABLE td {
+        padding: 10px;
+        border-bottom: 1px solid black;
+    }
+
+    .profileTABLE th {
+        background-color: #f2f2f2;
+        text-align: left;
+    }
+
+    .profileTABLE input[type="text"],.profileTABLE input[type="email"],
+    .profileTABLE select {
+        padding: 5px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .profileTABLE input[type="button"] , .profileTABLE input[type="submit"] {
+        padding: 5px 10px;
+        background-color: #f2f2f2;
+        border: none;
+        cursor: pointer;
+    }
+
+        .profileTABLE input[type="button"]:hover , .profileTABLE input[type="submit"]:hover {
+            background-color: #e0e0e0;
+        }
+
+    .profileTABLE td:first-child {
+        width: 40%;
+        font-weight: bold;
+    }
+
+    .profileTABLE td:nth-child(2) {
+        width: 60%;
+    }
+
+
+
+#submit, #clear {
+    margin-right: 10px;
+    width: 100px;
+    border: 2px solid black;
+    color: black;
+    border-color: green;
+    background-color: #ccffcc;
+}
+
+.thebuttons {
+    background-color: #f1f1f1;   
+}
+
+#submit:hover, #clear:hover {
+    background-color: green;
+}
+
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+}
+
+
+
+.footer a
+{
+    color: #fff;
+}

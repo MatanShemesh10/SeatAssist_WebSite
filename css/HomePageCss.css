@@ -1,0 +1,129 @@
+@import url("../css/NightModeStyleCSS.css");
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Gisha;
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    border-radius: 50%;
+    height: 80px;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.sidebar-container {
+    background-color: #f1f1f1;
+    width: 20%;
+    height: 100vh;
+    position: fixed;
+    margin-top: 30px;
+    top: 70px;
+    left: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.sidebar {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+    .sidebar a {
+        display: block;
+        padding: 10px;
+        margin-bottom: 10px;
+        color: #333;
+        text-decoration: none;
+    }
+
+    .sidebar a:hover {
+        background-color: #333;
+        color: #fff;
+        box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #333;
+    }
+
+.userblock {
+    border: 2px solid black;
+}
+
+.nearestORDER {
+    border: 1px solid black;
+}
+
+    .nearestORDER   :hover {
+       color: green;
+    }
+
+.userimg {
+    margin: 5px;
+    height: 70px;
+    border-radius: 30%;
+}
+
+.iconsBar {
+    height: 25px;
+    margin-right: 10px;
+}
+
+.center {
+    margin-top: 10px;
+    margin-left: 20%;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 80%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    
+}
+
+
+#myAudio
+{
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        border-radius: 100%;
+
+}
+    
+#officeIMG
+{
+    width: 500px;
+    border-radius: 20%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+}
+
+.footer a
+{
+    color: #fff;
+}
+
